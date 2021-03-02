@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team {
+  width: 15%;
+  padding: 20px;
+  margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .team {
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+
+.dashboard {
+  width: 80%;
+}
+
+.card_view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading {
+  text-align: center;
+}
+
+.launch_year {
+  text-align: center;
+  text-decoration: underline;
+}
